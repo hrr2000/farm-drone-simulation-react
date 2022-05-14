@@ -5,6 +5,9 @@ const plantTypes = {
     },
     corn: {
         image: '/images/plant-corn.png'
+    },
+    damaged: {
+        image: '/images/plant-damaged.png'
     }
 }
 

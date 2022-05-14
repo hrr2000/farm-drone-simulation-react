@@ -9,6 +9,41 @@ body {
   background-image: url("/public/images/background.png");
 }
 
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.drone-container {
+  border: solid 2px #4e300e;
+  padding: 15px 20px;
+  font-size: 17px;
+  gap: 15px;
+}
+
 .app {
   padding: 50px 0;
   display: flex;
@@ -17,17 +52,38 @@ body {
   align-items: center;
 }
 
+.drone {
+  position: absolute;
+  left: -85px;
+  top: 60px;
+  /*transform: translateY(-100px);*/
+  transition: all 1s;
+  width:300px;
+}
+
+.drone-box {
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.drone-box.open {
+  left: -10px;
+  top: -20px;
+}
+
 .land {
   display: flex;
-  align-items: center;
+  position: relative;
+  align-items: end;
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
 .land-part {
-  align-self: stretch;
   height: 120px;
-  margin-top: -10px;
+  top: 4px;
+  position: relative;
 }
 
 .lands {
