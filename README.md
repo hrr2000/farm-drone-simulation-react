@@ -1,4 +1,5 @@
 # Aerial-Imagery (Crop-Health Surveillance) Drones
+# Preview: https://www.linkedin.com/feed/update/urn:li:activity:6933320596864782336/
 Aerial imagery can save farmers a lot of time by giving them a bird's eye view of crops; that way, they can quickly get a
 sense of vegetation's health, insect issues, irrigation layouts, and weed growth. It even allows them to precisely determine
 how much pesticide the crops require.
